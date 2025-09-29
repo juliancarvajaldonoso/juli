@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Muñeco de Nieve - X3DOM</title>
+    <script type='text/javascript' src='https://www.x3dom.org/download/x3dom.js'></script>
+    <link rel='stylesheet' type='text/css' href='https://www.x3dom.org/download/x3dom.css' />
+</head>
+<body>
+    <x3d width='100%' height='600px'>
+        <scene>
+            <background skyColor='0.529 0.808 0.922'></background>
+            
+            <transform translation='0 -0.5 0'><shape><appearance><material diffuseColor='1 1 1'></material></appearance><sphere radius='0.8'></sphere></shape></transform>
+            <transform translation='0 0.5 0'><shape><appearance><material diffuseColor='1 1 1'></material></appearance><sphere radius='0.6'></sphere></shape></transform>
+            <transform translation='0 1.5 0'><shape><appearance><material diffuseColor='1 1 1'></material></appearance><sphere radius='0.4'></sphere></shape></transform>
+            
+            <transform translation='-0.1 1.6 0.35'>
+                <shape>
+                    <appearance><material diffuseColor='1 0 0'></material></appearance>
+                    <sphere radius='0.04'></sphere>
+                </shape>
+            </transform>
+            <transform translation='0.1 1.6 0.35'>
+                <shape>
+                    <appearance><material diffuseColor='1 0 0'></material></appearance>
+                    <sphere radius='0.04'></sphere>
+                </shape>
+            </transform>
+
+            <transform translation='0 1.5 0.35' rotation='1.57 0 0 1'><shape><appearance><material diffuseColor='1 0.64 0'></material></appearance><cone height='0.4' bottomRadius='0.08'></cone></shape></transform>
+            
+            <transform translation='-0.12 1.4 0.35'><shape><appearance><material diffuseColor='0 0 0'></material></appearance><sphere radius='0.02'></sphere></shape></transform>
+            <transform translation='-0.06 1.37 0.36'><shape><appearance><material diffuseColor='0 0 0'></material></appearance><sphere radius='0.02'></sphere></shape></transform>
+            <transform translation='0 1.36 0.37'><shape><appearance><material diffuseColor='0 0 0'></material></appearance><sphere radius='0.02'></sphere></shape></transform>
+            <transform translation='0.06 1.37 0.36'><shape><appearance><material diffuseColor='0 0 0'></material></appearance><sphere radius='0.02'></sphere></shape></transform>
+            <transform translation='0.12 1.4 0.35'><shape><appearance><material diffuseColor='0 0 0'></material></appearance><sphere radius='0.02'></sphere></shape></transform>
+
+            <transform translation='-0.7 0.5 0' rotation='0 0 1 -0.7'><shape><appearance><material diffuseColor='0.545 0.271 0.075'></material></appearance><cylinder height='1' radius='0.03'></cylinder></shape></transform>
+            <transform translation='0.7 0.5 0' rotation='0 0 1 0.7'><shape><appearance><material diffuseColor='0.545 0.271 0.075'></material></appearance><cylinder height='1' radius='0.03'></cylinder></shape></transform>
+
+            <transform translation='0 1.85 0' rotation='-0.2 0 0 1'>
+                <shape>
+                    <appearance><material diffuseColor='1 0 0'></material></appearance>
+                    <cone height='0.5' bottomRadius='0.25'></cone>
+                </shape>
+            </transform>
+
+        </scene>
+    </x3d>
+</body>
+</html>
